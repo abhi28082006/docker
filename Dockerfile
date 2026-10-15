@@ -1,4 +1,4 @@
 FROM python:3.10
-WORKDIR /abc
+WORKDIR /dev
 COPY . .
 CMD ["python", "abc.py"]
